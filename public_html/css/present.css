@@ -1,0 +1,126 @@
+:root {
+  --green: #3d9644;
+  --white: #fbfbfb;
+}
+.present{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 15px solid var(--green);
+  background-color: var(--white);
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 1000;
+  cursor: pointer;
+  
+  
+}
+
+.present img{
+
+}
+
+/* modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal-content {
+  background-color: var(--white);
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 15px;
+ 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--green);
+  text-transform: uppercase;
+}
+.modal-content form{
+  padding: 20px 5px;
+}
+.modal-content form label{
+  font-size: 18px;
+  color: var(--green);
+}
+.modal-content form input[type='text']{
+  width: 50%;
+  height: 40px;
+  border:1px solid rgb(141, 141, 141);
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.get__present{
+  padding: 10px 0;
+}
+.get__present h4{
+  font-size: 24px;
+  color: var(--green);
+}
+.get__present label{
+  padding-left: 15px;
+  cursor: pointer;
+}
+.get__present label input{}
+.get__present label{}
+.present__modal-btn{
+  width: 100%;
+  padding-top: 20px;
+}
+.present__modal-btn button{
+  padding: 15px 45px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--green);
+  color: var(--white);
+  cursor: pointer; 
+}
+
+.data__user{}
+.data__user input{}
+.data__user span{
+  font-size: 15px;
+  color: var(--green);
+}
+.data__user span a{}

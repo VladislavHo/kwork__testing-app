@@ -1,0 +1,54 @@
+:root {
+  --green: #3d9644;
+  --white: #fbfbfb;
+}
+
+.military__service {
+  width: 100%;
+  background-color: var(--white);
+  padding-top: 100px;
+}
+.l-military__service {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.military__service-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.military__service-bg {
+  width: 50%;
+}
+.military__service-bg img {
+  border-radius: 5px;
+}
+.military__service-info {
+  width: 50%;
+  padding: 15px 20px 15px 25px;
+}
+.military__service-info h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--green);
+}
+.military__service-info p {
+  padding: 15px 0;
+  font-size: 18px;
+  color: var(--green);
+}
+.military__service-btn {
+  width: 100%;
+}
+.military__service-btn button {
+  padding: 15px 45px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--green);
+  color: var(--white);
+  cursor: pointer;
+}
