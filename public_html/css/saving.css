@@ -3,6 +3,9 @@
   --white: #fbfbfb;
 }
 
+main{
+  padding-top: 100px;
+}
 .saving {
   width: 100%;
 }
@@ -119,7 +122,7 @@ CALC
 */
 
 .saving__calc {
-  padding-top: 60px;
+  padding-top: 15px;
 }
 
 .saving__calc h3 {
@@ -133,6 +136,7 @@ CALC
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  margin-bottom: 70px;
 }
 .saving__calc-logic,
 .saving__calc-info {
