@@ -21,48 +21,46 @@
 
 <body>
 	<script type="text/javascript">
-    (function (m, e, t, r, i, k, a) {
-      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-      m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-    })
-      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+		(function (m, e, t, r, i, k, a) {
+			m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+			m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+		})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-    ym(87735614, "init", {
-      clickmap: true,
-      trackLinks: true,
-      accurateTrackBounce: true,
-      webvisor: true
-    });
-  </script>
-  <noscript>
-    <div><img src="https://mc.yandex.ru/watch/87735614" style="position:absolute; left:-9999px;" alt="" /></div>
-  </noscript>
+		ym(87735614, "init", {
+			clickmap: true,
+			trackLinks: true,
+			accurateTrackBounce: true,
+			webvisor: true
+		});
+	</script>
+	<noscript>
+		<div><img src="https://mc.yandex.ru/watch/87735614" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript>
 	<!-- 
 	PRESENT
  -->
- <div id="myModal" class="modal">
-	<div class="modal-content">
+	<div id="myModal" class="modal">
+		<div class="modal-content">
 			<span class="close">&times;</span>
-			<div class="get__present-title">
 				<h3>Выберите подарок от нашей компании</h3>
 
-			</div>
 			<form action="">
 				<label for="name">Ваше имя?</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+				<input type="text" id="name" name="name" required><br><br>
 
-        <label for="city">С какого вы города?</label><br>
-        <input type="text" id="city" name="city" required><br><br>
+				<label for="city">С какого вы города?</label><br>
+				<input type="text" id="city" name="city" required><br><br>
 
-        <label for="phone">Ваш номер телефона</label><br>
-        <input type="tel" id="phone" name="phone" placeholder="+7(XXX)XXX-XX-XX" required><br><br>
+				<label for="phone">Ваш номер телефона</label><br>
+				<input type="tel" id="phone" name="phone" placeholder="+7(XXX)XXX-XX-XX" required><br><br>
 
 
 
 				<div class="get__present">
 
 
-						<h4>Выберите ваш подарок:</h4>
+					<h4>Выберите ваш подарок:</h4>
 
 					<label for="taxi">
 						<input type="radio" id="taxi" name="present" value="taxi" checked>
@@ -72,7 +70,7 @@
 						<input type="radio" id="service" name="present" value="service">
 						<span>Скидка на наши услуги</span>
 					</label><br>
-	
+
 					<label for="surprise">
 						<input type="radio" id="surprise" name="present" value="surprise">
 						<span>Сюрприз</span>
@@ -80,17 +78,19 @@
 				</div>
 
 
+				<div class="data__user">
+					<label for="data__user">
+						<input type="checkbox" id="data__user">
+						<span>Согласен на обработку <a href="#">персональных данных</a></span>
+					</label><br>
+				</div>
 
-				<label for="data__user">
-					<input type="checkbox" id="data__user">
-					<span>Согласен на обработку <a href="#">персональных данных</a></span>
-				</label><br>
 				<div class="present__modal-btn">
 					<button>Получить подарок</button>
 				</div>
 			</form>
+		</div>
 	</div>
-</div>
 	<div class="present">
 		<img src="./assets/gif/icons8.gif" alt="present">
 	</div>

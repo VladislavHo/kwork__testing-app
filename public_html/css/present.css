@@ -43,8 +43,8 @@
 }
 
 .modal-content {
+  max-width: 500px;
   background-color: var(--white);
-  margin: 0 auto;
   padding: 20px;
   border: 1px solid #888;
   border-radius: 15px;
@@ -73,14 +73,15 @@
   text-transform: uppercase;
 }
 .modal-content form{
-  padding: 20px 5px;
+  padding: 0 5px;
 }
 .modal-content form label{
   font-size: 18px;
   color: var(--green);
 }
-.modal-content form input[type='text']{
-  width: 50%;
+.modal-content form input[type='text'],
+.modal-content form input[type='tel']{
+  width: 70%;
   height: 40px;
   border:1px solid rgb(141, 141, 141);
   font-size: 18px;
@@ -118,9 +119,13 @@
 }
 
 .data__user{}
-.data__user input{}
-.data__user span{
+.data__user label{}
+.data__user label input{}
+.data__user label span{
   font-size: 15px;
   color: var(--green);
+  cursor: pointer;
 }
-.data__user span a{}
+.data__user label span a{
+  text-decoration: underline;
+}
