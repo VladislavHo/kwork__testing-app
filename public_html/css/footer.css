@@ -1,0 +1,31 @@
+:root {
+  --green: #3d9644;
+  --white: #fbfbfb;
+}
+.footer__link{
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__link li{
+  margin: 0 10px;
+  line-height: 30px;
+
+}
+.footer__link li a{
+  transition: all 0.3s ease;
+}
+.footer__link li a:hover{
+  border-bottom: 1px solid var(--green);
+  color: var(--green);
+}
+/*  */
+@media screen and (max-width: 865px){
+  .footer__link{
+    width: 100%;
+    flex-direction: column;
+
+    padding: 10px 0 20px;
+  }
+}

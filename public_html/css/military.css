@@ -63,5 +63,19 @@
   }
   .military__service-info{
     width: 80%;
+    padding: 15px 0 25px;
+  }
+
+}
+@media screen and (max-width: 740px){
+  .military__service-info h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .military__service-info p {
+    padding: 15px 0;
+    font-size: 14px;
+    color: var(--green);
   }
 }
