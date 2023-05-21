@@ -4,7 +4,8 @@
 }
 .legal__doc{
   max-width: 1200px;
-  margin: 0 auto;
+  
+  margin: 100px auto 0;
   padding: 0 5px;
 }
 .legal__doc h2{

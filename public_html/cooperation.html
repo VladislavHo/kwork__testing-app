@@ -11,8 +11,10 @@
     <title>Материнский капитал в Ярославле. Помощь в реализации на улучшение жилищных условий</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/cooperation.css">
-    <link rel="stylesheet" href="css/saving.css">
+		<link rel="stylesheet" href="./css/header.css">
+		<link rel="stylesheet" href="./css/footer.css">
+		<link rel="stylesheet" href="./css/cooperation.css">
+    <!-- <link rel="stylesheet" href="css/saving.css"> -->
     <link rel="stylesheet" href="css/present.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -112,7 +114,16 @@
 			<img src="assets/logo-desc.png" class="desc" alt="">
 			<!-- <img src="assets/logo-min.webp" class="mob" alt=""> -->
 		</a>
-
+		<!-- <div class="top-bar__menu">
+			<ul>
+				<li><a href="#documents">Документы</a></li>
+				<li><a href="#howsert">Схема работы</a></li>
+				<li><a href="#otzvi">Отзывы</a></li>
+				<li><a href="#svedetelstva">Свидетельства</a></li>
+				<li><a href="./saving.html">Сбережения</a></li>
+				<li><a href="about.html">О нас</a></li>
+			</ul>
+		</div> -->
 
 		<!-- Meta Pixel Code -->
 		<script>
@@ -158,18 +169,31 @@
 		<div class="top-bar__left-desc">
 			<div class="top-bar__tel">
 				<a href="tel:+79159772982">+7 (915) 977-29-82</a>
+				<div class="connection">
+					<a href=""><img src="./assets/svg/icons8-vk.svg" alt=""></a>
+					<a href=""><img src="./assets/svg/icons8-instagram.svg" alt=""></a>
+					<a href=""><img src="./assets/svg/icons8-whatsapp.svg" alt=""></a>
+					<a href=""><img src="./assets/svg/icons8-одноклассники.svg" alt=""></a>
+				</div>
 			</div>
+
 			<div class="top-bar__buttons">
 				<!-- <a href="#call">ЗАКАЗАТЬ ЗВОНОК</a> -->
-				<a href="https://wa.me/79159772982">НАПИСАТЬ В WHATSAPP</a>
+				<!-- <a href="https://wa.me/79159772982">НАПИСАТЬ В WHATSAPP</a> -->
+
 			</div>
 		</div>
 		<div class="top-mobile-left">
 			<div class="whatsapp-mobile">
-				<a href="https://wa.me/79159772982">
-					<img src="assets/whatsapp.svg" alt="">
-				</a>
+				<!-- <a href="https://wa.me/79159772982"> -->
+
 			</div>
+			<div class="connection-mobile">
+				<a href=""><img src="./assets/svg/icons8-vk.svg" alt=""></a>
+				<a href=""><img src="./assets/svg/icons8-instagram.svg" alt=""></a>
+				<a href=""><img src="./assets/svg/icons8-whatsapp.svg" alt=""></a>
+				<a href=""><img src="./assets/svg/icons8-одноклассники.svg" alt=""></a>
+			</div> 
 			<!-- <div class="burger-menu">
 				<span></span>
 			</div> -->
@@ -189,15 +213,16 @@
 		<div class="menubox__bottom">
 			<a href="tel:+79159772982">+7 (915) 977 -29 82</a>
 			<!-- <a href="#call">ЗАКАЗАТЬ ЗВОНОК</a> -->
+			<!-- <a href="https://wa.me/79159772982">НАПИСАТЬ В WHATSAPP</a> -->
+
 		</div>
 	</div>
-
 
 
   <main >
     <div class="l-cooperation">
       <div class="cooperation-bg">
-        <img src="./assets/img/iStock-973715182-768x512.jpg" alt="">
+        <!-- <img src="./assets/img/iStock-973715182-768x512.jpg" alt=""> -->
       </div>
       <div class="cooperation-info">
         <h3>
@@ -210,9 +235,41 @@
       </div>
     </div>
   </main>
-  <footer>
+	<section class="bottom-form">
+		<div class="bottom-form__title">
+			<h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
+			<p>Оставьте ваши контактные данные. Наш специалист перезвонит вам и и ответит на все интересующие
+				вопросы
+			</p>
+		</div>
+		<div class="feedback__form animated">
+			<form action="https://formspree.io/f/mvolkjvg" method="POST">
+				<input type="text" name="Имя" placeholder="Ваше имя">
+				<input type="text" name="Телефон" placeholder="Ваш номер телефона">
+				<input type="submit" value="ОТПРАВИТЬ" class="submit-button">
+			</form>
+		</div>
+		<div class="feedback__description">
+			<p>
+				Нажимая на кнопку, вы соглашаетесь с <a href="policy.html">политикой конфиденциальности</a>
+			</p>
+		</div>
+	</section>
+	<footer>
 		<div class="wrapper">
 			<img src="assets/footer-logo.png" alt="">
+			<ul class="footer__link">
+				<li><a href="#documents">Документы</a></li>
+				<li><a href="#howsert">Схема работы</a></li>
+				<li><a href="#otzvi">Отзывы</a></li>
+				<li><a href="#svedetelstva">Свидетельства</a></li>
+				<li><a href="./saving.html">Сбережения</a></li>
+				<li><a href="./legal-doc.html">Правовые документы </a></li>
+				<li><a href="./cooperation.html">СОТРУДНИЧЕСТВО</a></li>
+				<li><a href="./cooperation.html">ВОПРОС - ОТВЕТ</a></li>
+
+				<li><a href="about.html">О нас</a></li>
+			</ul>
 			<div>
 				<a href="tel:79159772982">+7 (915) 977-29-82</a>
 				<p>
@@ -221,6 +278,12 @@
 			</div>
 		</div>
 	</footer>
+	<script type="module" src="js/script.js"></script>
+	<script src="js/modal/present.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/parallax.min.js"></script>
   <script src="./js/calc/calc.js"></script>
   <script src="./js/modal/present.js"></script>
 </body>
