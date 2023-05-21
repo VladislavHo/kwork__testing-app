@@ -1,0 +1,35 @@
+:root {
+  --green: #3d9644;
+  --white: #fbfbfb;
+}
+
+.l-cooperation{
+  min-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cooperation-bg{
+  width: 50%;
+}
+.cooperation-bg img{
+  width: 100%;
+}
+.cooperation-info {
+  width: 50%;
+  padding: 4px 20px;
+}
+.cooperation-info h3 {
+  width: 60%;
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--green);
+}
+.cooperation-info p{
+  width: 70%;
+  font-size: 18px;
+  color: var(--green);
+}

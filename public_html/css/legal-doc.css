@@ -1,0 +1,22 @@
+:root {
+  --green: #3d9644;
+  --white: #fbfbfb;
+}
+.legal__doc{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+.legal__doc h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--green);
+
+}
+
+.legal__doc ul{
+  /* text-align: center;   */
+}
+.legal__doc ul li{
+  color: var(--green);
+}
