@@ -291,3 +291,40 @@ INFO
   color: var(--white);
   cursor: pointer;
 }
+
+@media screen and (max-width: 865px){
+  .saving-info__young{
+    flex-direction: column;
+    align-items: center;
+  }
+  .saving-info__old{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .saving-info__young-bg,
+  .saving-info__old-bg {
+    width: 80%;
+  }
+  .saving-info__young-bg,
+  .saving-info__old-bg {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+
+  }
+  .saving-info__young-bg img,
+  .saving-info__old-bg  img{
+    /* width: 80%; */
+    height: 30vh;
+
+  }
+  .saving__calc-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .saving__calc-logic,
+   .saving__calc-info{
+    width: 80%;
+    margin: 20px 0;
+  }
+}

@@ -10,3 +10,20 @@
   height: 20px;
   margin: 0 5px;
 }
+/* 1019px */
+@media screen and (max-width: 1019px) {
+ .connection{
+  display: none;
+ }  
+}
+.connection-mobile{
+  display: flex;
+  justify-content: center;
+}
+.connection-mobile a{
+  margin: 5px;
+}
+.connection-mobile a img{
+  width: 40px;
+}
+/* 		
