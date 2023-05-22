@@ -11,6 +11,8 @@
 .l-military__service {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 5px;
+  box-shadow: -11px 0px 81px -44px rgba(0, 0, 0, 0.75);
 }
 .military__service-card {
   width: 100%;
@@ -31,12 +33,12 @@
 .military__service-info h2 {
   font-size: 30px;
   text-transform: uppercase;
-  color: var(--green);
+  color: #2a2a2a;
 }
 .military__service-info p {
   padding: 15px 0;
   font-size: 18px;
-  color: var(--green);
+  color: #2a2a2a;
 }
 .military__service-btn {
   width: 100%;

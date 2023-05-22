@@ -9,6 +9,7 @@
   padding: 100px 5px 25px;
   display: flex;
   justify-content: space-between;
+  box-shadow: -11px 0px 81px -44px rgba(0, 0, 0, 0.75);
 }
 
 .cooperation-bg{
@@ -30,12 +31,12 @@
   width: 60%;
   font-size: 32px;
   font-weight: 800;
-  color: var(--green);
+  color: #2a2a2a;
 }
 .cooperation-info p{
   width: 70%;
   font-size: 18px;
-  color: var(--green);
+  color: #2a2a2a;
 }
 @media screen and (max-width: 865px){
   .l-cooperation{

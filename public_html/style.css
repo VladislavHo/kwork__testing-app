@@ -159,7 +159,7 @@ font-size: 14px;
 	flex-wrap: wrap;
 }
 .top-bar__menu ul li {
-	margin-left: 6px;
+	margin-left: 20px;
 }
 .top-bar__menu ul li a {
 	position: relative;
