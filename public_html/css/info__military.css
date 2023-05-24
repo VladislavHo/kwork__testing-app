@@ -1,0 +1,15 @@
+.info__military{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2{
+  font-size: 34px;
+  color: #2a2a2a;
+}
+.info__military p{
+  padding: 40px;
+
+  font-size: 18px;
+  border: 1px solid black;
+  color: #2a2a2a;
+}

@@ -43,22 +43,17 @@
 .military__service-btn {
   width: 100%;
 }
-.military__service-btn button {
-  padding: 15px 45px;
-  border: none;
-  outline: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
+.military__service-btn a {
+  padding: 6px 17px;
+  border-radius: 5px;
+  font-weight: bold;
   background-color: var(--green);
-  border: 4px solid var(--green);
-  /* color: var(--white); */
-  color: var(--white);
-  cursor: pointer;
-  transition: all 0.3s linear;
+  color: rgb(243, 243, 243);
+  border: 3px solid var(--green);
+  transition: 0.3s;
+  white-space: nowrap;
 }
-.military__service-btn button:hover{
+.military__service-btn a:hover{
   background-color: #cd72a3;
 }
 @media screen and (max-width: 865px) {
