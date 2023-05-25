@@ -38,7 +38,7 @@
 .controls {
   position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: 20%;
   transform: translateX(-50%);
 }
 
@@ -91,6 +91,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .controls{
+    left: 50%;
+  }
   .reviews {
     width: 840px;
   }
