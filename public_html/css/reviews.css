@@ -1,6 +1,6 @@
 .reviews {
   max-width: 1200px;
-
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,8 +8,14 @@
   box-shadow: -11px 0px 81px -44px rgba(0, 0, 0, 0.75);
 }
 
-.reviews h2{
+.reviews h2 {
   text-align: center;
+  width: 50%;
+  font-size: 34px;
+}
+
+.reviews iframe {
+  border-radius: 10px;
 }
 @media screen and (max-width: 840px) {
   .reviews {
