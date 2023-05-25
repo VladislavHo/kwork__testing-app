@@ -22,4 +22,7 @@
   .reviews {
     flex-direction: column;
   }
+  .reviews h2{
+    width: 100%;
+  }
 }
