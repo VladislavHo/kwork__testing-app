@@ -12,14 +12,14 @@
   overflow: hidden;
 }
 
-.reviews-slider{
+.reviews-slider {
   display: flex;
 
   justify-content: space-between;
   transition: transform 0.3s ease-in-out;
   /* width: 100%; */
 }
-.review{
+.review {
   width: 1200px;
   display: flex;
   align-items: center;
@@ -44,13 +44,54 @@
 
 .controls button {
   margin: 0 5px;
-} 
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #2a2a2a;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.controls button::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: whitesmoke;
+}
+.controls button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: whitesmoke;
+}
+.controls .next-btn:after {
+  transform: rotate(-45deg);
+  top: 17px;
+  left: 10px;
+}
+.controls .next-btn:before {
+  transform: rotate(45deg);
+  top: 11px;
+  left: 10px;
+}
 
-
-
+.controls .prev-btn:after {
+  transform: rotate(45deg);
+  top: 17px;
+  left: 10px;
+}
+.controls .prev-btn:before {
+  transform: rotate(-45deg);
+  top: 11px;
+  left: 10px;
+}
 
 @media screen and (max-width: 1200px) {
-  .reviews{
+  .reviews {
     width: 840px;
   }
   .review {
@@ -58,32 +99,30 @@
     flex-direction: column;
     align-items: center;
   }
-  .reviews h2{
+  .reviews h2 {
     padding: 0 10px;
     width: 100%;
     font-size: 22px;
   }
-  .reviews iframe{
+  .reviews iframe {
     width: 100%;
   }
 }
 @media screen and (max-width: 860px) {
-  .reviews{
+  .reviews {
     width: 540px;
   }
   .review {
     width: 540px;
-
   }
 }
 
 @media screen and (max-width: 540px) {
-  .reviews{
+  .reviews {
     width: 360px;
   }
   .review {
     width: 360px;
-
   }
 }
 
