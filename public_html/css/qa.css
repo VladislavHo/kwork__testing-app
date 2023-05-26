@@ -8,16 +8,23 @@
   padding-top: 100px;
 
 }
-h2{
+.qa-info{
+  padding-bottom: 40px;
+}
+.qa-info h2{
   font-size: 36px;
   text-align: center;
   color: #2a2a2a
 }
 
-p{
+.qa-info p{
   font-size: 24px;
   text-align: center;
-  color: #2a2a2a
+  color: #2a2a2a;
+}
+.qa-info p a{
+  font-size: 24px;
+  color: var(--green);
 }
 
 .accordion-container {
