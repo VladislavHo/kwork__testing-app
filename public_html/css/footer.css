@@ -20,6 +20,22 @@
   border-bottom: 1px solid var(--green);
   color: var(--green);
 }
+
+.footer-info{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info p{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0 auto;
+  color: rgb(232, 229, 229);
+  font-size: 8px;
+}
+.footer-info p a{
+    font-size: 8px;
+}
 /*  */
 @media screen and (max-width: 865px){
   .footer__link{
@@ -27,5 +43,8 @@
     flex-direction: column;
 
     padding: 10px 0 20px;
+  }
+  .footer-info p{
+    max-width: 500px;
   }
 }
