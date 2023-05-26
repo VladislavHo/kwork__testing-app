@@ -122,14 +122,4 @@
 .present__modal-btn button:hover{
   background-color: #cd72a3
 }
-.data__user{}
-.data__user label{}
-.data__user label input{}
-.data__user label span{
-  font-size: 15px;
-  color: var(--green);
-  cursor: pointer;
-}
-.data__user label span a{
-  text-decoration: underline;
-}
+

@@ -1,0 +1,49 @@
+.data__user{}
+.data__user label{}
+.data__user label a {
+  display: flex; 
+  align-items: flex-start;
+}
+.data__user label a label{}
+.data__user label span{
+  font-size: 11px;
+
+  cursor: pointer;
+}
+.data__user label span a{
+  text-decoration: underline;
+}
+
+.feedback__form-data__user{
+  width: 50%;
+  padding-top: 20px;
+}
+.feedback__form-top{
+  color: var(--green);
+}
+.feedback__form-bottom{
+  color: white;
+}
+
+.call-data__user{
+  /* width: 44%; */
+  margin: 0 auto;
+}
+.call-data__user label{
+  /* width: 50%; */
+}
+.call-data__user label a span{
+  color: white;
+}
+.feedback__form-data__user-footer{
+  padding-top: 20px;
+  max-width: 700px;
+}
+@media screen  and (max-width: 865px){
+  #feedback__form{
+    width: 100%;
+  }
+  .feedback__form-data__user{
+    width: 100%;
+  }
+}
