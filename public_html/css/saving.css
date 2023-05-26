@@ -357,8 +357,13 @@ INFO
   }
   .saving-info__young-info,
   .saving-info__old-info {
+    width: 100%;
     text-align: center;
     padding: 20px 0;
+  }
+  .saving-info__young-info .saving_acardeon .saving-A,
+  .saving-info__old-info .saving_acardeon .saving-A{
+    text-align: start;
   }
   .saving-info__young-info p,
   .saving-info__old-info p {
