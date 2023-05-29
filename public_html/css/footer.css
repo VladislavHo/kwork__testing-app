@@ -38,6 +38,9 @@
     color: #0645AD ;
     text-decoration: underline;
 }
+.footer__adress{
+  max-width: 230px;
+}
 /*  */
 @media screen and (max-width: 865px){
   .footer__link{
