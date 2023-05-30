@@ -3,21 +3,32 @@
   --white: #fbfbfb;
 }
 .present{
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 15px solid var(--green);
+  border: 10px solid #FF3C04;
+  outline:4px solid rgb(255, 124, 84);
   background-color: var(--white);
   position: fixed;
   bottom: 5px;
   right: 5px;
   z-index: 1000;
   cursor: pointer;
+  animation: move .5s infinite alternate;
+  transition: all .3s linear;
   
-  
+}
+@keyframes move {
+  0% {
+    outline:4px solid rgb(255, 124, 84);
+  }
+
+  100% {
+    outline:8px solid rgba(255, 124, 84, 0.346);
+  }
 }
 
 .present img{
